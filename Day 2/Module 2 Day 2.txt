@@ -1,0 +1,32 @@
+Part 1 -> The decision maker
+
+1. The gate keeper (IF)
+if(logical test, value true, value false)
+
+Part 2 -> Complex Decisions
+AND -> Must meet all expectations.
+OR -> Must meet at least one expectation.
+NOT -> Opposite of the expectation.
+
+Part 3 -> Text Extractor - LEFT,RIGHT,MID
+
+Left -> get text from left side of the text.
+Right -> get text from right side of the text.
+Mid -> get text from the middle.
+
+Part 4 -> Joining and formatting (CONCAT, LEN, TRIM)
+
+1. Combining text
+CONCAT(text1,text2...)
+& - operator
+
+2. Clean-up Crew (LEN, TRIM, PROPER)
+
+LEN - returns number of characters in text.
+TRIM - Cleans up the extra white space.
+PROPER - converts into proper case, every first letter capital for all words.
+
+TRIM is the most used text function.
+
+
+
