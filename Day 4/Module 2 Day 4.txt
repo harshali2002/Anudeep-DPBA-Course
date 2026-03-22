@@ -1,0 +1,33 @@
+Module 2 Day 4
+Data Cleaning and Validation
+
+Part 1 -> The Detective
+
+rule - if you have bad data, you make bad reports, your boss makes bad decisions like firing you.
+
+scenario - 5k or 10k + rows we need to find out the duplicates and remove duplicate rows when required.
+
+to highlight duplicates we use conditional formatting
+to purge the duplicates we use remove duplicates available in data tab.
+
+Part 2 -> The Separator (Text to columns & Flash Fill)
+
+Scenario - you have the names in the format "smith,john", you need the values in 2 different columns
+
+method -> text to columns or flash fill
+
+text to columns takes 5 clicks and will be preferred to use with multiple columns
+
+flash fill will be preferred to use for one or two columns
+
+Part 3 -> The Shield (Data Validation & Dropdowns)
+
+Restricting Input - make users pick values from a list or a dedicated format
+
+
+Part 4 -> The Surgeon (Find/Replace and go to special)
+
+Find and replace - it helps to replace the wrongly placed values in the data. - ctrl+h
+
+go to special - first cell, last cell, blanks and etc - ctrl+g
+
