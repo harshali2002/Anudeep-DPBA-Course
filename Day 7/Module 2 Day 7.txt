@@ -1,0 +1,35 @@
+Day 7 - Dashboard and UI Design
+
+if our dashboard is messy, it has cluttered charts, our boss will not take look at it.
+
+5 - second rule -> first 5 seconds are taken to judge your dashboard, whether we are winning or losing.
+
+F-pattern - top - we have KPIS, performance metrics, most critical numbers, something that gives us an idea about the business immediately.
+
+middle - Trends (line charts over time)
+comparison over time
+
+bottom - granular details (tables)
+
+Bad Dashboard -  neon colours, too many charts, gridlines everywhere, not polished or inconsistent fonts
+
+Good Dashboard - Simple layout, simple colours being used, no gridlines, consistent colors
+
+KPI Tiles & GETPIVOTDATA formula
+
+insert a shape -> Proper Formatting and colors -> =GETPIVOTDATA
+
+to create KPI tiles
+
+Advanced visuals & content
+
+Sparklines -> When we have data of time or duration in columns for every single product. Then we cannot create line charts for every single product. We use sparklines for the purpose of showing the trends.
+
+
+Dynamic Tiles or Titles - It helps to change the title of the chart as we filter the data from the slicer.
+
+Designing the slicer, polishing and protection
+
+pivot data, chart data, slicer... provide protection.
+
+
