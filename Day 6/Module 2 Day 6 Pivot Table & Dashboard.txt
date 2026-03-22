@@ -1,0 +1,44 @@
+Module 2 Day 6 Pivot Table & Dashboards
+
+Part 1 -> The Anatomy (Building the engine)
+
+problem - "I have 50000 rows of sales. I need to know the total sales by region, then by product and then by sales rep. If I use filters, I have to copy paste 50 times."
+
+solution - Use Pivot tables, always convert the source data into a table before making a pivot.
+
+why? if you add new data next month, a table updates automatically. a normal range does not.
+
+Part 2 -> The Analyst Lens (Calculations & Grouping)
+
+Grouping - The Time machine
+1) scenario - your data has daily dates, need to convert it to months or quarters
+
+2) action - right click on a date in pivot table -> group -> select months or quarters.
+
+3) Text grouping - selecting text such as 'apples' or 'bananas' -> right click -> group -> rename the column.
+
+show values as (Magic feature)
+it converts raw numbers into percentages of the column or rows.
+
+Part 3 -> The story teller (Pivot Chart)
+
+Difference - A pivot chart changes when you filter the pivot table but a normal chart does not.
+
+The "Clean-up" - Pivot charts are ugly by default, so we need to make them clean by hiding the field buttons present on the chart.
+
+The Combo Chart
+
+Scenario - you need to show the "Total Sales" and "Profit margin %" on the same chart.
+
+Part 4 -> The Control Room (Slicers and Timelines with connections)
+
+
+1) Slicer - Visual filter button
+2) Timeline - Special slicer for dates
+3) Formatting - change slicer colors to match the dashboard
+
+report connections - 
+1) Problem: you have 3 charts, you click on the slicer button and only one chart changes.
+2) Solution: Right click slicer -> Report Connections -> Check boxes for all 3 pivot tables.
+3) Result: One button controls the entire screen. This is WOW!!
+
