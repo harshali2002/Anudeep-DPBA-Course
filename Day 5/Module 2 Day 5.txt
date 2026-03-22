@@ -1,0 +1,45 @@
+Module 2 Day 5
+
+sorting, filtering and conditional formatting.
+
+Multi-level sorting - we select levels on which we want our data to be sorted, such as first sort by department and then sort by salary.
+
+Custom list sorting - We need our data to be sorted in a particular order so we use custom list to sort our data by adding the particular order.
+
+Part 2 -> The miner (Deep Filtering)
+
+1. Basics - autofilter
+ ctrl + shift + L
+
+it helps to filter the data according to user requirement.
+
+2. The Power Filter (Text, Number, Date)
+
+	Text filter - equals, contains, begins with
+	Number Filter - top 10, above average
+	Date Filter - Last month, this week, yearly distribution
+
+Part 3 -> The modern way 
+
+we create tables using ctrl + T
+
+benefits - alternating coloured rows automatically
+filters added automatically
+we can customize the tables as well.
+
+Slicers - the boss button
+managers hate dropdowns so we give them buttons
+slicer helps to filter the data and is divided through column values.
+
+Part 4 -> The Artist (Conditional Formatting)
+
+Highlight cell rules - If a project is delayed highlight it immediately
+
+Data bars and color scales
+
+data bars show the amount completed with respect to the highest value in the column
+
+color scales gives you a heatmap of your data so you can see how the scales vary throughout the column
+
+Icon Sets show the state of the value if it is rising or falling or at the same pace by inserting icons.
+
