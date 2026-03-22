@@ -1,0 +1,33 @@
+Module 2 Day 3
+
+Part 1 - The Connector (VLOOKUP)
+
+VLOOKUP - It scans the first column of reference table to find a match and brings information from that row.
+
+VLOOKUP(Lookup_value,Look_range,column_number,range_lookup)
+
+Part 2 -> Bulletproofing (Locking & Error)
+
+use absolute referencing to lock the table range in vlookup
+
+use iferror function to avoid any N/A or Error cells.
+
+Part 3 -> The Professional's tool (Index-Match)
+
+Match - helps to find the row number
+Index - helps to find the value at the row
+Combined - helps to find value anywhere in the workbook.
+
+Match (GPS) - I don't want the value, I want the location.
+Index (Claw) - I will go and grab the value at the location.
+
+combined syntax:
+Index(column_result,match(Value,column_range,0))
+
+Part 4 -> The Game Changer (X LOOKUP)
+
+All for one (MHA)
+looks left, looks right and handles error
+
+impossible search
+vlookup finds oldest transactions but xlookup finds latest ones.
